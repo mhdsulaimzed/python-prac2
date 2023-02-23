@@ -1,0 +1,1184 @@
+00:29:49 **** Incremental Build of configuration Debug for project sum ****
+make all 
+Cannot run program "make": Unknown reason
+
+Error: Program "make" not found in PATH
+PATH=[/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+01:17:37 **** Build of configuration Debug for project sum4 ****
+make all 
+Cannot run program "make": Unknown reason
+
+Error: Program "make" not found in PATH
+PATH=[/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+15:14:19 **** Build of configuration Debug for project sample ****
+make all 
+Building file: ../src/sample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sample.d" -MT"src/sample.o" -o "src/sample.o" "../src/sample.c"
+../src/sample.c: In function ‘main’:
+../src/sample.c:15:10: warning: unused variable ‘sum’ [-Wunused-variable]
+  int a,b,sum;
+          ^~~
+../src/sample.c:15:8: warning: unused variable ‘b’ [-Wunused-variable]
+  int a,b,sum;
+        ^
+../src/sample.c:15:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a,b,sum;
+      ^
+Finished building: ../src/sample.c
+ 
+Building target: sample
+Invoking: GCC C Linker
+gcc  -o "sample"  ./src/sample.o   
+Finished building target: sample
+ 
+15:14:21 **** Build of configuration Debug for project sum ****
+make all 
+Building file: ../src/sum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum.d" -MT"src/sum.o" -o "src/sum.o" "../src/sum.c"
+Finished building: ../src/sum.c
+ 
+Building target: sum
+Invoking: GCC C Linker
+gcc  -o "sum"  ./src/sum.o   
+Finished building target: sum
+ 
+15:14:22 **** Build of configuration Debug for project sum2 ****
+make all 
+Building file: ../src/sum2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum2.d" -MT"src/sum2.o" -o "src/sum2.o" "../src/sum2.cpp"
+Finished building: ../src/sum2.cpp
+ 
+Building target: sum2
+Invoking: GCC C++ Linker
+g++  -o "sum2"  ./src/sum2.o   
+Finished building target: sum2
+ 
+15:14:23 **** Build of configuration Debug for project sum3 ****
+make all 
+Building file: ../src/sum3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum3.d" -MT"src/sum3.o" -o "src/sum3.o" "../src/sum3.c"
+Finished building: ../src/sum3.c
+ 
+Building target: sum3
+Invoking: GCC C Linker
+gcc  -o "sum3"  ./src/sum3.o   
+Finished building target: sum3
+ 
+15:14:24 **** Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+Finished building: ../src/sum4.c
+ 
+Building target: sum4
+Invoking: GCC C Linker
+gcc  -o "sum4"  ./src/sum4.o   
+Finished building target: sum4
+ 
+15:56:02 **** Incremental Build of configuration Debug for project sum4 ****
+make all 
+make: Nothing to be done for 'all'.
+15:59:29 **** Incremental Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+../src/sum4.c: In function ‘main’:
+../src/sum4.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%c"&a);
+        ~~~~^
+../src/sum4.c:18:40: error: expected ‘)’ before ‘a’
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                        ^
+src/subdir.mk:18: recipe for target 'src/sum4.o' failed
+../src/sum4.c:18:38: warning: format ‘%c’ expects a matching ‘int’ argument [-Wformat=]
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                     ~^
+make: *** [src/sum4.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:01:46 **** Incremental Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+../src/sum4.c: In function ‘main’:
+../src/sum4.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%c"&a);
+        ~~~~^
+../src/sum4.c:18:40: error: expected ‘)’ before ‘a’
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+src/subdir.mk:18: recipe for target 'src/sum4.o' failed
+                                        ^
+../src/sum4.c:18:38: warning: format ‘%c’ expects a matching ‘int’ argument [-Wformat=]
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                     ~^
+make: *** [src/sum4.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:35:45 **** Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+Finished building: ../src/zaazy.c
+ 
+Building target: zaazy
+Invoking: GCC C Linker
+gcc  -o "zaazy"  ./src/zaazy.o   
+Finished building target: zaazy
+ 
+00:36:13 **** Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+../src/sum4.c: In function ‘main’:
+../src/sum4.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%c"&a);
+        ~~~~^
+../src/sum4.c:18:40: error: expected ‘)’ before ‘a’
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                        ^
+../src/sum4.c:18:38: warning: format ‘%c’ expects a matching ‘int’ argument [-Wformat=]
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                     ~^
+src/subdir.mk:18: recipe for target 'src/sum4.o' failed
+make: *** [src/sum4.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:37:39 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%d"&num);
+        ~~~~^
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:38:08 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%d"&num);
+        ~~~~^
+make: *** [src/zaazy.o] Error 1
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+00:39:13 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+Finished building: ../src/zaazy.c
+ 
+Building target: zaazy
+Invoking: GCC C Linker
+gcc  -o "zaazy"  ./src/zaazy.o   
+Finished building target: zaazy
+ 
+00:51:12 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:20:36: error: expected ‘)’ before ‘num1’
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+   printf("%d i the greatest number"num1);
+                                    ^~~~
+../src/zaazy.c:20:12: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+   printf("%d i the greatest number"num1);
+           ~^
+../src/zaazy.c:23:31: error: expected ‘)’ before ‘num2’
+   puts("%d is greatest number"num2);
+                               ^~~~
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:51:52 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:23:3: error: too many arguments to function ‘puts’
+   puts("%d is greatest number",num2);
+   ^~~~
+In file included from ../src/zaazy.c:11:0:
+/usr/include/stdio.h:632:12: note: declared here
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+ extern int puts (const char *__s);
+            ^~~~
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:52:36 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+Finished building: ../src/zaazy.c
+ 
+Building target: zaazy
+Invoking: GCC C Linker
+gcc  -o "zaazy"  ./src/zaazy.o   
+Finished building target: zaazy
+ 
+00:54:08 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+make: Nothing to be done for 'all'.
+01:06:01 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:17:14: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+  scanf("%d%d%d",&num1,&num2,num3);
+             ~^
+../src/zaazy.c:17:2: warning: ‘num3’ is used uninitialized in this function [-Wuninitialized]
+  scanf("%d%d%d",&num1,&num2,num3);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/zaazy.c
+ 
+Building target: zaazy
+Invoking: GCC C Linker
+gcc  -o "zaazy"  ./src/zaazy.o   
+Finished building target: zaazy
+ 
+01:06:32 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+make: Nothing to be done for 'all'.
+01:08:28 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:17:14: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+  scanf("%d%d%d",&num1,&num2,num3);
+             ~^
+../src/zaazy.c: At top level:
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+../src/zaazy.c:38:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:09:55 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:11:08 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+  return 1;
+  ^~~~~~
+make: *** [src/zaazy.o] Error 1
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+01:11:49 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+  return EXIT_SUCCESS;
+  ^~~~~~
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:42:24 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:43:13 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:45:29 **** Clean-only build of configuration Debug for project sample ****
+make clean 
+rm -rf ./src/sample.d ./src/sample.o
+rm -rf sample
+ 
+07:45:29 **** Clean-only build of configuration Debug for project sum ****
+make clean 
+rm -rf ./src/sum.d ./src/sum.o
+rm -rf sum
+ 
+07:45:29 **** Clean-only build of configuration Debug for project sum2 ****
+make clean 
+rm -rf ./src/sum2.d ./src/sum2.o
+rm -rf sum2
+ 
+07:45:29 **** Clean-only build of configuration Debug for project sum3 ****
+make clean 
+rm -rf ./src/sum3.d ./src/sum3.o
+rm -rf sum3
+ 
+07:45:30 **** Clean-only build of configuration Debug for project sum4 ****
+make clean 
+rm -rf ./src/sum4.d ./src/sum4.o
+rm -rf sum4
+ 
+07:45:30 **** Clean-only build of configuration Debug for project zaazy ****
+make clean 
+rm -rf ./src/zaazy.d ./src/zaazy.o
+rm -rf zaazy
+ 
+
+**** Build of configuration Debug for project charprint ****
+
+Nothing to build for project charprint
+07:45:30 **** Build of configuration Debug for project negpos ****
+make all 
+Building file: ../src/negpos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/negpos.d" -MT"src/negpos.o" -o "src/negpos.o" "../src/negpos.c"
+Finished building: ../src/negpos.c
+ 
+Building target: negpos
+Invoking: GCC C Linker
+gcc  -o "negpos"  ./src/negpos.o   
+Finished building target: negpos
+ 
+
+**** Build of configuration Debug for project posative ****
+
+Nothing to build for project posative
+07:45:31 **** Build of configuration Debug for project sample ****
+make all 
+Building file: ../src/sample.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sample.d" -MT"src/sample.o" -o "src/sample.o" "../src/sample.c"
+../src/sample.c: In function ‘main’:
+../src/sample.c:15:10: warning: unused variable ‘sum’ [-Wunused-variable]
+  int a,b,sum;
+          ^~~
+../src/sample.c:15:8: warning: unused variable ‘b’ [-Wunused-variable]
+  int a,b,sum;
+        ^
+../src/sample.c:15:6: warning: unused variable ‘a’ [-Wunused-variable]
+  int a,b,sum;
+      ^
+Finished building: ../src/sample.c
+ 
+Building target: sample
+Invoking: GCC C Linker
+gcc  -o "sample"  ./src/sample.o   
+Finished building target: sample
+ 
+07:45:31 **** Build of configuration Debug for project sum ****
+make all 
+Building file: ../src/sum.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum.d" -MT"src/sum.o" -o "src/sum.o" "../src/sum.c"
+Finished building: ../src/sum.c
+ 
+Building target: sum
+Invoking: GCC C Linker
+gcc  -o "sum"  ./src/sum.o   
+Finished building target: sum
+ 
+07:45:32 **** Build of configuration Debug for project sum2 ****
+make all 
+Building file: ../src/sum2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum2.d" -MT"src/sum2.o" -o "src/sum2.o" "../src/sum2.cpp"
+Finished building: ../src/sum2.cpp
+ 
+Building target: sum2
+Invoking: GCC C++ Linker
+g++  -o "sum2"  ./src/sum2.o   
+Finished building target: sum2
+ 
+07:45:34 **** Build of configuration Debug for project sum3 ****
+make all 
+Building file: ../src/sum3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum3.d" -MT"src/sum3.o" -o "src/sum3.o" "../src/sum3.c"
+Finished building: ../src/sum3.c
+ 
+Building target: sum3
+Invoking: GCC C Linker
+gcc  -o "sum3"  ./src/sum3.o   
+Finished building target: sum3
+ 
+07:45:35 **** Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+../src/sum4.c: In function ‘main’:
+../src/sum4.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%c"&a);
+        ~~~~^
+../src/sum4.c:18:40: error: expected ‘)’ before ‘a’
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                        ^
+../src/sum4.c:18:38: warning: format ‘%c’ expects a matching ‘int’ argument [-Wformat=]
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                     ~^
+make: *** [src/sum4.o] Error 1
+src/subdir.mk:18: recipe for target 'src/sum4.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+07:45:35 **** Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c:37:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:48:45 **** Build of configuration Debug for project passorfail ****
+make all 
+Building file: ../src/passorfail.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/passorfail.d" -MT"src/passorfail.o" -o "src/passorfail.o" "../src/passorfail.c"
+Finished building: ../src/passorfail.c
+ 
+Building target: passorfail
+Invoking: GCC C Linker
+gcc  -o "passorfail"  ./src/passorfail.o   
+Finished building target: passorfail
+ 
+07:49:38 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:26:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../src/zaazy.c: At top level:
+../src/zaazy.c:28:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+  ^~~~~~
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:51:28 **** Incremental Build of configuration Debug for project passorfail ****
+make all 
+Building file: ../src/passorfail.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/passorfail.d" -MT"src/passorfail.o" -o "src/passorfail.o" "../src/passorfail.c"
+../src/passorfail.c:28:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/passorfail.o' failed
+make: *** [src/passorfail.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:03:43 **** Incremental Build of configuration Debug for project passorfail ****
+make all 
+Building file: ../src/passorfail.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/passorfail.d" -MT"src/passorfail.o" -o "src/passorfail.o" "../src/passorfail.c"
+../src/passorfail.c:28:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+make: *** [src/passorfail.o] Error 1
+src/subdir.mk:18: recipe for target 'src/passorfail.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+
+**** Build of configuration Debug for project charprint ****
+
+Nothing to build for project charprint
+14:07:12 **** Incremental Build of configuration Debug for project negpos ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:13 **** Incremental Build of configuration Debug for project passorfail ****
+make all 
+Building file: ../src/passorfail.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/passorfail.d" -MT"src/passorfail.o" -o "src/passorfail.o" "../src/passorfail.c"
+Finished building: ../src/passorfail.c
+ 
+Building target: passorfail
+Invoking: GCC C Linker
+gcc  -o "passorfail"  ./src/passorfail.o   
+Finished building target: passorfail
+ 
+
+**** Build of configuration Debug for project posative ****
+
+Nothing to build for project posative
+14:07:15 **** Incremental Build of configuration Debug for project sample ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:16 **** Incremental Build of configuration Debug for project sum ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:16 **** Incremental Build of configuration Debug for project sum2 ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:17 **** Incremental Build of configuration Debug for project sum3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:07:17 **** Incremental Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+../src/sum4.c: In function ‘main’:
+../src/sum4.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%c"&a);
+        ~~~~^
+../src/sum4.c:18:40: error: expected ‘)’ before ‘a’
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                        ^
+../src/sum4.c:18:38: warning: format ‘%c’ expects a matching ‘int’ argument [-Wformat=]
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                     ~^
+src/subdir.mk:18: recipe for target 'src/sum4.o' failed
+make: *** [src/sum4.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:07:17 **** Incremental Build of configuration Debug for project zaazy ****
+make all 
+Building file: ../src/zaazy.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/zaazy.d" -MT"src/zaazy.o" -o "src/zaazy.o" "../src/zaazy.c"
+../src/zaazy.c: In function ‘main’:
+../src/zaazy.c:26:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../src/zaazy.c: At top level:
+../src/zaazy.c:28:2: error: expected identifier or ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/zaazy.o' failed
+make: *** [src/zaazy.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:08:38 **** Incremental Build of configuration Debug for project passorfail ****
+make all 
+make: Nothing to be done for 'all'.
+17:09:24 **** Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+17:09:40 **** Incremental Build of configuration Debug for project passorfail ****
+make all 
+make: Nothing to be done for 'all'.
+17:10:52 **** Incremental Build of configuration Debug for project switch ****
+make all 
+make: Nothing to be done for 'all'.
+17:11:00 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+17:11:05 **** Incremental Build of configuration Debug for project switch ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:09 **** Incremental Build of configuration Debug for project switch ****
+make all 
+make: Nothing to be done for 'all'.
+17:12:33 **** Incremental Build of configuration Debug for project switch ****
+make all 
+make: Nothing to be done for 'all'.
+00:14:15 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+00:33:27 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+00:34:13 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+00:36:32 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+../src/switch.c: In function ‘main’:
+../src/switch.c:22:18: warning: comparison of constant ‘89’ with boolean expression is always true [-Wbool-compare]
+  else if(80>=mark<=89)
+                  ^~
+../src/switch.c:22:12: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+  else if(80>=mark<=89)
+          ~~^~~~~~
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+00:45:33 **** Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:45:54 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+../src/switch.c: In function ‘main’:
+../src/switch.c:22:18: warning: comparison of constant ‘89’ with boolean expression is always true [-Wbool-compare]
+  else if(80>=mark<=89)
+                  ^~
+../src/switch.c:22:12: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+  else if(80>=mark<=89)
+          ~~^~~~~~
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+00:46:40 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+00:49:25 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+../src/forloop1to100.c: In function ‘main’:
+../src/forloop1to100.c:16:9: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+  for(i=1,i<=100,i++)
+         ^
+../src/forloop1to100.c:16:20: error: expected ‘;’ before ‘)’ token
+  for(i=1,i<=100,i++)
+                    ^
+../src/forloop1to100.c:16:20: error: expected expression before ‘)’ token
+src/subdir.mk:18: recipe for target 'src/forloop1to100.o' failed
+make: *** [src/forloop1to100.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:51:09 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+../src/forloop1to100.c: In function ‘main’:
+../src/forloop1to100.c:16:9: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+  for(i=1,i<=100,i++)
+         ^
+../src/forloop1to100.c:16:20: error: expected ‘;’ before ‘)’ token
+src/subdir.mk:18: recipe for target 'src/forloop1to100.o' failed
+  for(i=1,i<=100,i++)
+                    ^
+../src/forloop1to100.c:16:20: error: expected expression before ‘)’ token
+make: *** [src/forloop1to100.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:51:52 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:52:20 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+01:03:40 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+../src/forloop1to100.c: In function ‘main’:
+../src/forloop1to100.c:23:2: error: expected ‘;’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/forloop1to100.o' failed
+make: *** [src/forloop1to100.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:03:59 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+01:05:06 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:46:43 **** Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:47:32 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:48:23 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:49:09 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+23:30:51 **** Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+../src/forloop1to100.c: In function ‘main’:
+../src/forloop1to100.c:17:2: error: expected ‘(’ before ‘return’
+  return EXIT_SUCCESS;
+  ^~~~~~
+src/subdir.mk:18: recipe for target 'src/forloop1to100.o' failed
+make: *** [src/forloop1to100.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:31:30 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+../src/forloop1to100.c: In function ‘main’:
+../src/forloop1to100.c:17:17: error: ‘j’ undeclared (first use in this function)
+  for(int i=1;i<=j;i++)
+                 ^
+../src/forloop1to100.c:17:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/forloop1to100.c:16:6: warning: unused variable ‘limit’ [-Wunused-variable]
+  int limit;
+      ^~~~~
+src/subdir.mk:18: recipe for target 'src/forloop1to100.o' failed
+make: *** [src/forloop1to100.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:36:15 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+23:41:22 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+23:43:36 **** Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:43:44 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:43:50 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:43:58 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:45:02 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+23:45:09 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:09 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:50:51 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:52:05 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+23:52:11 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:52:13 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:52:59 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+make: Nothing to be done for 'all'.
+23:53:56 **** Incremental Build of configuration Debug for project forloop1to100 ****
+make all 
+Building file: ../src/forloop1to100.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/forloop1to100.d" -MT"src/forloop1to100.o" -o "src/forloop1to100.o" "../src/forloop1to100.c"
+Finished building: ../src/forloop1to100.c
+ 
+Building target: forloop1to100
+Invoking: GCC C Linker
+gcc  -o "forloop1to100"  ./src/forloop1to100.o   
+Finished building target: forloop1to100
+ 
+00:13:05 **** Build of configuration Debug for project swaping3 ****
+make all 
+Building file: ../src/swaping3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/swaping3.d" -MT"src/swaping3.o" -o "src/swaping3.o" "../src/swaping3.c"
+Finished building: ../src/swaping3.c
+ 
+Building target: swaping3
+Invoking: GCC C Linker
+gcc  -o "swaping3"  ./src/swaping3.o   
+Finished building target: swaping3
+ 
+00:13:13 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+00:13:23 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+00:18:34 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+Building file: ../src/swaping3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/swaping3.d" -MT"src/swaping3.o" -o "src/swaping3.o" "../src/swaping3.c"
+Finished building: ../src/swaping3.c
+ 
+Building target: swaping3
+Invoking: GCC C Linker
+gcc  -o "swaping3"  ./src/swaping3.o   
+Finished building target: swaping3
+ 
+00:18:36 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+00:19:00 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+13:55:32 **** Build of configuration Debug for project butter ****
+make all 
+Building file: ../src/butter.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butter.d" -MT"src/butter.o" -o "src/butter.o" "../src/butter.c"
+Finished building: ../src/butter.c
+ 
+Building target: butter
+Invoking: GCC C Linker
+gcc  -o "butter"  ./src/butter.o   
+Finished building target: butter
+ 
+13:55:35 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+13:56:14 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+13:56:41 **** Incremental Build of configuration Debug for project butter ****
+make all 
+make: Nothing to be done for 'all'.
+13:56:56 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:01:27 **** Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+../src/butterfly.c: In function ‘main’:
+../src/butterfly.c:20:4: warning: implicit declaration of function ‘prinf’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    prinf("*");
+    ^~~~~
+    printf
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+./src/butterfly.o: In function `main':
+/home/user/eclipse-workspace/butterfly/Debug/../src/butterfly.c:20: undefined reference to `prinf'
+collect2: error: ld returned 1 exit status
+makefile:41: recipe for target 'butterfly' failed
+make: *** [butterfly] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:02:11 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:02:32 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:02:47 **** Incremental Build of configuration Debug for project swaping3 ****
+make all 
+make: Nothing to be done for 'all'.
+14:03:23 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:03:32 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.
+14:08:08 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:08:10 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.
+14:08:46 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:08:48 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.
+14:09:34 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:10:03 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:10:04 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.
+14:10:48 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:10:49 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.
+14:12:27 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:12:28 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.
+14:12:45 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+Building file: ../src/butterfly.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/butterfly.d" -MT"src/butterfly.o" -o "src/butterfly.o" "../src/butterfly.c"
+Finished building: ../src/butterfly.c
+ 
+Building target: butterfly
+Invoking: GCC C Linker
+gcc  -o "butterfly"  ./src/butterfly.o   
+Finished building target: butterfly
+ 
+14:12:46 **** Incremental Build of configuration Debug for project butterfly ****
+make all 
+make: Nothing to be done for 'all'.

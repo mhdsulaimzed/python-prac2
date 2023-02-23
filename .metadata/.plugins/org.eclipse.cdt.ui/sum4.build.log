@@ -1,0 +1,21 @@
+14:07:17 **** Incremental Build of configuration Debug for project sum4 ****
+make all 
+Building file: ../src/sum4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sum4.d" -MT"src/sum4.o" -o "src/sum4.o" "../src/sum4.c"
+../src/sum4.c: In function ‘main’:
+../src/sum4.c:17:12: error: invalid operands to binary & (have ‘char *’ and ‘int’)
+  scanf("%c"&a);
+        ~~~~^
+../src/sum4.c:18:40: error: expected ‘)’ before ‘a’
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                        ^
+../src/sum4.c:18:38: warning: format ‘%c’ expects a matching ‘int’ argument [-Wformat=]
+  printf("the entered character is : %c"a);/* prints !!!Hello World!!! */
+                                     ~^
+src/subdir.mk:18: recipe for target 'src/sum4.o' failed
+make: *** [src/sum4.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+14:07:17 Build Failed. 4 errors, 1 warnings. (took 185ms)
+

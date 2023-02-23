@@ -1,0 +1,12 @@
+LaunchTargetManager/configs/butterfly=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/forloop1to100\ Debug=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/swaping3=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:sum4,org.eclipse.launchbar.core.descriptorType.default\:zaazy,org.eclipse.launchbar.core.descriptorType.default\:passorfail,org.eclipse.launchbar.core.descriptorType.default\:switch Debug,org.eclipse.launchbar.core.descriptorType.default\:forloop1to100 Debug,org.eclipse.launchbar.core.descriptorType.default\:swaping3,org.eclipse.launchbar.core.descriptorType.default\:butterfly
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:passorfail/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:passorfail/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:sum4/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sum4/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

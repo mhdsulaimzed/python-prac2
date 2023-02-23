@@ -1,0 +1,22 @@
+00:45:54 **** Incremental Build of configuration Debug for project switch ****
+make all 
+Building file: ../src/switch.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.c"
+../src/switch.c: In function ‘main’:
+../src/switch.c:22:18: warning: comparison of constant ‘89’ with boolean expression is always true [-Wbool-compare]
+  else if(80>=mark<=89)
+                  ^~
+../src/switch.c:22:12: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+  else if(80>=mark<=89)
+          ~~^~~~~~
+Finished building: ../src/switch.c
+ 
+Building target: switch
+Invoking: GCC C Linker
+gcc  -o "switch"  ./src/switch.o   
+Finished building target: switch
+ 
+
+00:45:54 Build Finished. 0 errors, 2 warnings. (took 227ms)
+
